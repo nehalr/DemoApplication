@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/back_img"
+            android:layout_width="@dimen/height"
+            android:layout_height="@dimen/width"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_white"
+            android:padding="@dimen/space"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/space"
+            android:paddingBottom="@dimen/space"
+            android:paddingTop="@dimen/space"
+            android:text="Charecter Details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/largetxt" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/topmargin"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textColor="@color/labeltext"
+            android:textSize="@dimen/medtxt" />
+
+        <TextView
+            android:id="@+id/name_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/name_label"
+            android:layout_weight="1"
+            android:textColor="@color/datavalue"
+            android:textSize="@dimen/medtxt" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/mass_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mass"
+            android:textColor="@color/labeltext"
+            android:textSize="@dimen/medtxt" />
+
+        <TextView
+            android:id="@+id/mass_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mass_label"
+            android:layout_weight="1"
+            android:textColor="@color/datavalue"
+            android:textSize="@dimen/medtxt" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/height_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Height"
+            android:textColor="@color/labeltext"
+            android:textSize="@dimen/medtxt" />
+
+        <TextView
+            android:id="@+id/height_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/height_label"
+            android:layout_weight="1"
+            android:textColor="@color/datavalue"
+            android:textSize="@dimen/medtxt" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date"
+            android:textColor="@color/labeltext"
+            android:textSize="@dimen/medtxt" />
+
+        <TextView
+            android:id="@+id/date_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/data_label"
+            android:layout_weight="1"
+            android:textColor="@color/datavalue"
+            android:textSize="@dimen/medtxt" />
+
+    </LinearLayout>
+</LinearLayout>

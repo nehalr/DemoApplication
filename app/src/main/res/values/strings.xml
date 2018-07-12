@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoApplication</string>
+    <string name="dialog_title">Alert!</string>
+    <string name="dialog_message">Unable to connect to server</string>
+</resources>

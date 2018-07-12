@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height">50dp</dimen>
+    <dimen name="width">50dp</dimen>
+    <dimen name="largetxt">20sp</dimen>
+    <dimen name="medtxt">15sp</dimen>
+    <dimen name="space">10dp</dimen>
+    <dimen name="topmargin">30dp</dimen>
+    <dimen name="top">70dp</dimen>
+</resources>
